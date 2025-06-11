@@ -1,0 +1,422 @@
+[
+  {
+    "question": "What is system software?",
+    "answer": "System software is a collection of programs that bridges the gap between the user and the computer hardware, allowing the user to interact with the computer and for the computer to execute tasks.  Flashcard 2:"
+  },
+  {
+    "question": "What are some examples of system software?",
+    "answer": "Examples of system software include assemblers, linkers, loaders, macro processors, text editors, debuggers, device drivers, compilers, interpreters, and operating systems.  Flashcard 3:"
+  },
+  {
+    "question": "What is the difference between system software and application software?",
+    "answer": "System software is a type of software that operates the computer system and provides services for other software, while application software is a type of software that is designed to perform specific tasks for the user."
+  },
+  {
+    "question": "What is the gap between the level at which users wish to interact with the computer and the level at which the computer is capable of operating?",
+    "answer": "This gap is bridged by system software.  Flashcard 2:"
+  },
+  {
+    "question": "What is system software?",
+    "answer": "System software is a type of software that makes it possible for users to focus on applications without needing to know the details of how the machine works internally. It includes various components like Operating System, Language Translators, Loader, Linker, Debugger, and Text Editor.  Flashcard 3:"
+  },
+  {
+    "question": "Can you list the types of Language Translators and give brief descriptions?",
+    "answer": "Sure! The types of Language Translators are: i. Compiler: Translates high-level programming languages into machine code for efficient execution. ii. Assembler: Translates assembly language into machine code. iii. Interpreter: Executes high-level programming language instructions directly without first translating the entire program into machine code. iv. Macro Processor: Allows programmers to define and use abbreviations for frequently used code sequences.  Flashcard 4:"
+  },
+  {
+    "question": "What is Application Software?",
+    "answer": "Application Software refers to programs designed to perform specific tasks or functions for the user. They are typically built on top of an operating system, relying on the OS to provide necessary resources and services to run efficiently. Users interact with application software through graphical interfaces, command lines, or other methods depending on the software design.  Flashcard 5:"
+  },
+  {
+    "question": "What makes Application Software useful for end users?",
+    "answer": "Application Software allows end users to accomplish one or more specific tasks efficiently."
+  },
+  {
+    "question": "What starts running when a system is turned on?",
+    "answer": "System software  Flashcard 2:"
+  },
+  {
+    "question": "What kind of software interacts directly with users?",
+    "answer": "Application software  Flashcard 3:"
+  },
+  {
+    "question": "What is the primary system software that manages all the hardware and all other software on a computer?",
+    "answer": "Operating system (a type of system software)"
+  },
+  {
+    "question": "What is the primary function of an Operating System (OS)?",
+    "answer": "The OS serves as an intermediary between users and hardware, managing resources like the CPU, storage, memory, and input or output devices, ensuring all programs can run properly.  Flashcard 2:"
+  },
+  {
+    "question": "What does a Language Translator do?",
+    "answer": "A Language Translator is a program that takes input in one language and produces output in another language.  Flashcard 3:"
+  },
+  {
+    "question": "What is a Compiler in the context of programming?",
+    "answer": "A Compiler is a Language Translator that translates a program written in a high-level language into machine-level language. The process of compiling a code involves several stages: lexical analysis, syntax analysis, semantic analysis, intermediate code generation, and code optimization. Examples of programming languages that use compilers are C, C++, Java, Rust, Go, and Swift."
+  },
+  {
+    "question": "What is a code generation interpreter and what is its interpretation cycle?",
+    "answer": "A code generation interpreter is a program that translates statements of high-level language into machine-level language line by line. The interpretation cycle includes fetching the statement, analyzing the statement and determining its meaning, and executing the meaning of the statement.  Flashcard 2:"
+  },
+  {
+    "question": "What are the differences between compilers and interpreters?",
+    "answer": "Compilers take the entire program for translation and produce intermediate code or machine code specific to a particular architecture, making them less portable. Interpreters, on the other hand, translate and execute the program line by line without generating intermediate code. The source code can run on any platform that has an interpreter, making them more portable.  Flashcard 3:"
+  },
+  {
+    "question": "What is an assembler and what is its role?",
+    "answer": "An assembler is a tool that translates assembly language into machine code. It plays a crucial role in the process of converting high-level programming languages into machine-readable instructions."
+  },
+  {
+    "question": "What does an assembler do?",
+    "answer": "An assembler translates assembly languages, which are mnemonic codes, into actual machine code that a processor can execute.  Flashcard 2:"
+  },
+  {
+    "question": "How do programmers write programs in assembly language more conveniently?",
+    "answer": "By using mnemonic symbols for each instruction, which are then translated to machine language.  Flashcard 3:"
+  },
+  {
+    "question": "What is the role of an assembler in the process of translating assembly language to machine code?",
+    "answer": "An assembler translates the mnemonic code to machine language equivalents and assigns machine addresses to a symbol table.  Bonus Flashcard (comparing Compiler and Assembler):"
+  },
+  {
+    "question": "How do compilers and assemblers differ in their functions?",
+    "answer": "Compilers translate high-level languages into machine codes, while assemblers translate assembly languages into machine codes. Compiling a complex program from high-level languages requires several stages of translation, which is a more complex process compared to assembling an assembly language program. However, the assembly language translation is relatively straightforward and usually faster than compilation. For example, GCC is a popular compiler."
+  },
+  {
+    "question": "What is a macro in programming?",
+    "answer": "A macro is a special code fragment that is defined once in a program and used by calling it from various places within the program."
+  },
+  {
+    "question": "What is the role of a macro processor in programming?",
+    "answer": "A macro processor is a program that copies a stream of text from one place to another, making a systematic set of replacements as it does so."
+  },
+  {
+    "question": "What is the purpose of using macros in programming?",
+    "answer": "Macros are used as a notational convenience for the programmer to write a shorthand version of a program. They represent a commonly used group of statements in the source program and are replaced by the macro processor with the corresponding group of source language statements. This operation is called \"expanding\"."
+  },
+  {
+    "question": "What is a macro in programming?",
+    "answer": "A macro is a sequence of predefined instructions that can be used repeatedly in a program."
+  },
+  {
+    "question": "How do you define a macro in programming?",
+    "answer": "A macro is defined explicitly with the `#define` directive. The directive is followed by the name of the macro and then the code it should be an abbreviation for. For example, `#define SAVEREGS ...`"
+  },
+  {
+    "question": "What is the function of a macro processor in programming?",
+    "answer": "A macro processor performs the substitution of one group of characters or lines for another in a program. It doesn't analyze the text it handles or concern itself with the meaning of the involved statements during macro expansion. The design of a macro processor is generally machine independent."
+  },
+  {
+    "question": "Where are macro processors used in programming?",
+    "answer": "Macro processors are used in programming to simplify complex sequences of instructions and make the code more readable and maintainable. They are commonly used in assembly language programming and some high-level languages like C and C++."
+  },
+  {
+    "question": "What is a macro in assembly language?",
+    "answer": "A macro is a sequence of assembly language instructions that can be given a name and parameters, allowing it to be reused multiple times in a program."
+  },
+  {
+    "question": "What are the basic functions of a macro processor?",
+    "answer": "The fundamental functions common to all macro processors are Macro Definition, Macro Invocation, and Macro Expansion."
+  },
+  {
+    "question": "How does a macro processor generate the expansion of a macro?",
+    "answer": "When a macro is defined, two new assembler directives are used: MACRO and MEND. The body of the macro is placed between these two directives. When the macro is invoked, the macro processor generates the expansion of the macro, replacing the macro name with its sequence of assembly language instructions."
+  },
+  {
+    "question": "What identifies the beginning of a macro definition in a SIC/XE program?",
+    "answer": "The first MACRO statement"
+  },
+  {
+    "question": "What is the symbol in the label field of a macro definition, and what do entries in the operand field represent?",
+    "answer": "The symbol in the label field is the name of the macro, and entries in the operand field identify the parameters of the macro instruction."
+  },
+  {
+    "question": "How are parameters identified in the macro definition in this SIC/XE program?",
+    "answer": "Each parameter begins with the character '&', which facilitates the substitution of parameters during macro expansion."
+  },
+  {
+    "question": "What is a macro invocation statement?",
+    "answer": "A macro invocation statement (also known as a macro call) gives the name of the macro instruction being invoked and the arguments in expanding the macro."
+  },
+  {
+    "question": "How are statements of a macro different from statements of a subroutine when it comes to being called?",
+    "answer": "Statements of a macro are expanded each time the macro is invoked, while statements of a subroutine appear only once, regardless of how many times the subroutine is called."
+  },
+  {
+    "question": "What happens to the macro invocation statements and the statements generated from macro expansion during assembly?",
+    "answer": "The macro invocation statements are treated as comments, and the statements generated from macro expansion will be assembled as though they had been written directly in the code."
+  },
+  {
+    "question": "What is Macro Expansion in programming?",
+    "answer": "Macro Expansion is a process in programming where each macro invocation statement is expanded into the statements that form the body of the macro."
+  },
+  {
+    "question": "How are arguments and parameters associated in a macro invocation?",
+    "answer": "The arguments and parameters are associated with one another according to their positions. The first argument in the macro invocation corresponds to the first parameter in the macro prototype, and so on."
+  },
+  {
+    "question": "What happens during the macro expansion process?",
+    "answer": "During the macro expansion process, the arguments from the macro invocation are substituted for the parameters in the macro prototype. For example, if the macro invocation uses argument F1, it will be substituted for the parameter wherever it occurs in the body of the macro. Similarly, BUFFER will be substituted for BUFADR and LENGTH will be substituted for RECLTH. The comment lines within the macro body have been deleted, but comments on individual statements have been retained. The macro invocation statement itself has been included as a comment line."
+  },
+  {
+    "question": "What does the macro invocation on line 190 show after its complete expansion?",
+    "answer": "The complete expansion of the macro invocation on line 190 shows the statements generated from the macro definition."
+  },
+  {
+    "question": "Why is the label on the macro invocation statement CLOOP retained in the first statement generated in the macro expansion?",
+    "answer": "The label on the macro invocation statement CLOOP is retained to allow the programmer to use a macro instruction in exactly the same way as an assembler language mnemonic."
+  },
+  {
+    "question": "How are the statements generated from the macro expansion treated during assembly?",
+    "answer": "The statements generated from the macro expansions will be assembled exactly as though they had been written directly by the programmer."
+  },
+  {
+    "question": "What is the role of a linker in the process of creating an executable file?",
+    "answer": "The linker's role is to combine multiple object files generated by compilers or assemblers into a single executable file."
+  },
+  {
+    "question": "Describe the process of linking.",
+    "answer": "Linking is the process of collecting and combining various pieces of code and data into a single file that can be loaded into memory and executed."
+  },
+  {
+    "question": "When does linking occur?",
+    "answer": "Linking occurs after the compilation or assembly process."
+  },
+  {
+    "question": "What is the process of translating source code into machine code called?",
+    "answer": "Compile time"
+  },
+  {
+    "question": "What is the process of loading a program into memory and executing it by the loader?",
+    "answer": "Load time"
+  },
+  {
+    "question": "What is the linking operation that is performed directly in main memory for execution?",
+    "answer": "Linking Loader"
+  },
+  {
+    "question": "What is the linking process that produces a linked version of the program called an executable image?",
+    "answer": "Linkage Editor"
+  },
+  {
+    "question": "What is the linking process that postpones the linking function until execution time, also known as dynamic loading?",
+    "answer": "Dynamic Linker"
+  },
+  {
+    "question": "What is the role of the loader in the execution of a program?",
+    "answer": "The loader's role is to load the executable file into memory and prepare it for execution, then hand over control to the program."
+  },
+  {
+    "question": "Describe the workflow of the loader when a user runs a program.",
+    "answer": "When the user types commands to run a program, the operating system's loader takes over and starts loading the program. The loader then loads the program into memory and prepares it for execution, before handing over control to the program."
+  },
+  {
+    "question": "What is the utility of an operating system?",
+    "answer": "An operating system reads the program code from the disk (secondary storage) into memory (RAM), relocates the addresses in the program code to reflect the actual memory locations, finds and locates the required libraries, allocates memory spaces for stack and heap, and hands over the control for execution.  Flashcard 2:"
+  },
+  {
+    "question": "What does a Loader do in a computer system?",
+    "answer": "A Loader copies a program from a storage device to the computer\u2019s main memory, replaces virtual addresses with real addresses, sets up and initializes the stack pointer and other registers, and prepares the program for execution.  Flashcard 3:"
+  },
+  {
+    "question": "What is the difference between a Linker and a Loader?",
+    "answer": "A Linker combines multiple object files into a single one for execution during the build process, before the program is executed. A Loader, on the other hand, operates at run time when the user starts the program, loads executable files into memory, and prepares the program for execution, making the processor ready to execute. The output of a Linker is an executable file that can run by the operating system, while the output of a Loader is a running program."
+  },
+  {
+    "question": "What is an executable file?",
+    "answer": "An executable file is a computer program that can be directly run by the operating system without requiring an interpreter."
+  },
+  {
+    "question": "What is a debugger, and what does it do?",
+    "answer": "A debugger is an interactive debugging system that aids programmers in testing and debugging programs. It allows executing code step by step, understanding the flow of the program, and fixing bugs."
+  },
+  {
+    "question": "What is debugging, and why is it important?",
+    "answer": "Debugging is the process of locating bugs or faults in a program. It helps in fixing errors, determining the exact nature and location of errors in the program, and speeding up the process by identifying and fixing the bugs, allowing the programmer to inspect the program state at specific points and understand its workflow."
+  },
+  {
+    "question": "Can you name some examples of debuggers for different programming languages?",
+    "answer": "Yes, for C++, there's GDB (GNU Debugger); for Python, there's PDB (Python Debugger); Visual Studio has built-in debuggers; and IntelliJ IDEA also provides debugging tools."
+  },
+  {
+    "question": "What is a device driver and what is its primary function?",
+    "answer": "A device driver is a software module that manages the communication and control of specific I/O devices. Its primary function is to convert logical requests from the user into specific commands directed to the device itself."
+  },
+  {
+    "question": "What happens when the OS boots up or a new hardware device is connected?",
+    "answer": "When the OS boots up or a new hardware device is connected, the device driver is loaded into memory. It then initializes the hardware device registers or allocates resources."
+  },
+  {
+    "question": "How does a device driver handle data transfer between hardware and system memory?",
+    "answer": "A device driver manages data transfer between hardware and system memory. It translates high-level requests into low-level codes that the hardware can understand. Memory devices generate interrupts to signal completion or an operation to indicate an event."
+  },
+  {
+    "question": "What are some of the additional tasks performed by device drivers?",
+    "answer": "Device drivers also manage errors that may occur during communication with hardware, and when the system shuts down or the hardware device is removed, they perform necessary steps like releasing the allocated resources and deregistering from the OS."
+  },
+  {
+    "question": "Can you give an example of a device that uses a device driver?",
+    "answer": "Yes, a printer is an example of a device that uses a device driver. The device driver translates print commands from the application into low-level codes that the printer can understand, manages data transfer between the printer and system memory, and handles errors that may occur during printing."
+  },
+  {
+    "question": "What is a text editor and what are some of its key features?",
+    "answer": "A text editor is a program that allows the user to create, edit, delete, update documents or files. Key features include syntax highlighting, auto completion, search or replace, line numbering, and extensibility. Examples include IntelliJ IDEA, Eclipse, NetBeans, VS Code (for Java), PyCharm, Atom, Emacs (for Python), VS Code, Vim, Notepad++ (for C, C++).  Flashcard 2:"
+  },
+  {
+    "question": "What is the Simplified Instructional Computer (SIC) and what are its versions?",
+    "answer": "The Simplified Instructional Computer (SIC) is a hypothetical computer used for education purposes to help students understand the fundamentals of computer architecture and arithmetic and logical operations. It comes in two versions: the standard model and the XE version.  Flashcard 3:"
+  },
+  {
+    "question": "What are Bluetooth drivers and graphic devices (like NVIDIA)?",
+    "answer": "Bluetooth drivers are software components that enable communication between a computer and Bluetooth devices. Graphic devices, such as NVIDIA, are hardware components responsible for rendering visuals on a computer screen. They require specific drivers for proper functioning."
+  },
+  {
+    "question": "What is the basic unit of memory in this architecture?",
+    "answer": "The basic unit of memory is a byte, consisting of 8 bits."
+  },
+  {
+    "question": "How are words defined in this memory?",
+    "answer": "Words are defined as consecutive 3 bytes, making them 24 bits in total."
+  },
+  {
+    "question": "How many bytes does this memory consist of in total?",
+    "answer": "This memory consists of a total of 32,768 bytes."
+  },
+  {
+    "question": "What are the five main registers in this architecture?",
+    "answer": "The five main registers are the Accumulator (A), Index Register (X), Linkage Register (L), Program Counter (PC), and Status Word (SW)."
+  },
+  {
+    "question": "What is the Accumulator used for?",
+    "answer": "The Accumulator is a special purpose register used for arithmetic operations."
+  },
+  {
+    "question": "What is the function of the Index Register (X)?",
+    "answer": "The Index Register (X) stores and calculates addresses."
+  },
+  {
+    "question": "What does the Linkage Register (L) store?",
+    "answer": "The Linkage Register (L) stores the return address of the jump or subroutine instructions (JSUB)."
+  },
+  {
+    "question": "What does the Program Counter (PC) contain?",
+    "answer": "The Program Counter (PC) contains the address of the current instructions being executed."
+  },
+  {
+    "question": "What information does the Status Word (SW) contain?",
+    "answer": "The Status Word (SW) contains a variety of information including the condition code."
+  },
+  {
+    "question": "How are integers stored in this system?",
+    "answer": "Integers are stored as 24-bit binary numbers. For negative values, 2's complement representation is used."
+  },
+  {
+    "question": "How are characters stored in this system?",
+    "answer": "Characters are stored using their 8-bit ASCII codes."
+  },
+  {
+    "question": "Does this system support floating-point data items?",
+    "answer": "No, this system does not support floating-point data items."
+  },
+  {
+    "question": "What is the purpose of the 24-bit flag bit X in the instructions?",
+    "answer": "The X flag bit is used to indicate indexed-addressing mode in instructions.  Flashcard 2:"
+  },
+  {
+    "question": "What are the two types of addressing modes available in the given system?",
+    "answer": "The two types of addressing modes available are direct addressing mode and indexed addressing mode or indirect addressing mode.  Flashcard 3:"
+  },
+  {
+    "question": "How is the target address calculated in indexed addressing mode?",
+    "answer": "In indexed addressing mode, the target address is calculated as the sum of the address and the contents of the index register. (TA = Address + (X))"
+  },
+  {
+    "question": "What is the method for I/O in Opcode X (1) in SIC/XE Architecture?",
+    "answer": "I/O is performed by transferring one byte at a time to or from the rightmost 8 bits of register A. Each device is assigned a unique 8-bit code."
+  },
+  {
+    "question": "How many I/O instructions are there in Opcode X (1) and what do they do?",
+    "answer": "There are 3 I/O instructions. The Test Device (TD) instruction tests whether the addressed device is ready to send or receive a byte of data. If the condition code setting is less than the device is ready, if setting is equal the device is not ready. A program must wait until the device is ready, and then execute a Read Data (RD) or Write Data (WD)."
+  },
+  {
+    "question": "How are data and memory organized in SIC/XE Architecture?",
+    "answer": "In SIC/XE Architecture, 1 word equals 24 bits (3 8-bit bytes), and the total memory is 220 (1,048,576) bytes (1Mbyte)."
+  },
+  {
+    "question": "What is the data format for integers in the given system?",
+    "answer": "Integers are stored in 24 bit, 2's complement format.  Flashcard 2:"
+  },
+  {
+    "question": "How are characters stored in the given system?",
+    "answer": "Characters are stored in 8-bit ASCII format.  Flashcard 3:"
+  },
+  {
+    "question": "What is the format for floating point numbers in the given system?",
+    "answer": "The floating point number is stored in 48 bit signed-exponent-fraction format. The fraction is a 36 bit number between 0 and 1, the exponent is an 11 bit unsigned binary number between 0 and 2047, and the sign of the floating point number is indicated by s (0=positive, 1=negative). The absolute floating point number value is f*2(e-1024)."
+  },
+  {
+    "question": "What is Immediate addressing in the given format?",
+    "answer": "Immediate addressing is when n=1 and i=0. In this case, the word at the Program Counter (TA) is used as an operand value (no memory reference)."
+  },
+  {
+    "question": "How is Indirect addressing defined in the given format?",
+    "answer": "Indirect addressing is when n=1 and i=1. In this case, the word at the Program Counter (TA) in memory is fetched and used as an address to fetch the operand from."
+  },
+  {
+    "question": "What is the purpose of the flag bit x in the given format?",
+    "answer": "The flag bit x (1 bit) is used for Indexed addressing. When x=1, the contents of the X register are added to the TA calculation for addressing purposes."
+  },
+  {
+    "question": "What is the format used when b=0 and p=0 in the given content?",
+    "answer": "Direct addressing displacement/address field contains TA (Format 3)  Flashcard 2:"
+  },
+  {
+    "question": "What is the range for PC relative addressing in the given content?",
+    "answer": "-2048 <= disp <= 2047  Flashcard 3:"
+  },
+  {
+    "question": "What is the format used when b=1 and p=0 in the given content?",
+    "answer": "Base relative addressing - TA=(B)+disp  Bonus Flashcard:"
+  },
+  {
+    "question": "Which instructions are Data Movement Instructions in the given content?",
+    "answer": "LDA (Load Accumulator), LDX (Load Index Register), LDL (Load Linkage Register), STA (Store Accumulator), STX (Store Index Register), STL (Store Linkage Register), LDT (Load T Register), STT (Store T Register)"
+  },
+  {
+    "question": "What is the maximum number of I/O devices that can be attached to the system?",
+    "answer": "28 (256) I/O devices  Flashcard 2:"
+  },
+  {
+    "question": "How much data is transferred to/from the rightmost 8 bits of register A during an I/O operation?",
+    "answer": "1 byte  Flashcard 3:"
+  },
+  {
+    "question": "What are the three I/O instructions provided in the system?",
+    "answer": "RD (Read Data from I/O device into A), WD (Write data to I/O device from A), and TD (Test Device)  Bonus Flashcard:"
+  },
+  {
+    "question": "What does the TD instruction do and what does the CC get set with as a result?",
+    "answer": "The TD instruction determines if the addressed I/O device is ready to send/receive a byte of data. The CC gets set with results from this test: < device is ready to send/receive, = device isn't ready.  Bonus Flashcard 2:"
+  },
+  {
+    "question": "What is SIC/XE and what additional instructions does it provide?",
+    "answer": "SIC/XE is a capability for programmed I/O, which allows the I/O device to input/output data while the CPU does other work. It provides 3 additional instructions: (Details not provided in the content)"
+  },
+  {
+    "question": "What is the purpose of the START directive in a SIC Program?",
+    "answer": "The START directive indicates the starting address of the program.  Flashcard 2:"
+  },
+  {
+    "question": "What are the components of a SIC Program?",
+    "answer": "A SIC Program consists of operation codes (opcodes), instructions, variables/constants, and the END directive.  Flashcard 3:"
+  },
+  {
+    "question": "What is the function of the WORD and RESW directives in a SIC Program?",
+    "answer": "WORD is used to define constants, while RESW is used to reserve space for words (4 bytes) in memory for variables or reserved words.  Example Flashcard:"
+  },
+  {
+    "question": "What does this SIC Program do and how is it structured?",
+    "answer": "This program adds two numbers and stores the result in memory. It is structured with the START directive indicating the starting address of the program, instructions consisting of opcodes and operands, variables/constants defined using WORD, and the END directive marking the end of the program and specifying the starting point for execution."
+  }
+]
